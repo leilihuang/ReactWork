@@ -1,11 +1,52 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+static/dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+node_modules/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Other files and folders
-.settings/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+tmp/
+src/test.js
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+*.py[c|o]
+*.sw*
+.venv/
+
+
+.DS_Store
