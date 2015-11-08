@@ -4,7 +4,7 @@ var node_modules=path.resolve(__dirname,'node_modules');
 var reactPath=path.resolve(node_modules, 'react/dist/react.min.js');
 
 var webConfig={
-    entry: ['webpack/hot/dev-server', path.resolve(__dirname, 'app/main.jsx')],
+    entry: ['webpack/hot/dev-server', path.resolve(__dirname, 'app/entries/main.jsx')],
     resolve: {
         alias: {
             'react': reactPath
